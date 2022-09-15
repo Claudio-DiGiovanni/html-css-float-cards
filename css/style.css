@@ -5,7 +5,6 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Signika+Negative&display=swap');
 body{
-    font-family: 'Roboto', sans-serif;
     font-family: 'Signika Negative', sans-serif;
 }
 h1{
@@ -29,8 +28,22 @@ h1{
     float: left;
     margin-top: 80px;
     margin-right: 1rem;
+    box-shadow:  5px  5px 5px #dedede,
+                -5px -5px 5px #dedede,
+                 5px -5px 5px #dedede,
+                -5px  5px 5px #dedede;
 
 }
 img{
     width: 130px;
+    float: left;
+    margin-right: 10px;
 }
+h2, .work, a{
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: lightblue;
+}
+
